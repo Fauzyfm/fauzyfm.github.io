@@ -78,8 +78,8 @@ const App = () => {
              <h3 className='font-sans from-neutral-500'>Hallo nama saya, <span className='text-sky-500 font-semibold '>Fachrul Fauzy Muzafar.</span></h3>
              <p className='font-sans text-slate-400 font'>Web Developer</p>
             </div>
-            <div className='my-10 w-full flex lg:justify-center sm:justify-center  lg:w-1/2'>
-            <img className='lg:w-1/2 ml-20 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
+            <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2'>
+            <img className='lg:w-1/2 ml-9 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
             </div>
           </div>
         </div>

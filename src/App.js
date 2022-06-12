@@ -55,7 +55,7 @@ const App = () => {
                     <a href="#project" className='text-base text-slate-700 py-2 mx-8 group-hover:text-sky-600 flex'>Project</a>
                   </li>
                   <li className='group'>
-                    <a href="#certificate" className='text-base text-slate-700 py-2 mx-8 group-hover:text-sky-600 flex'>Certificate</a>
+                    <a href="#sertificate" className='text-base text-slate-700 py-2 mx-8 group-hover:text-sky-600 flex'>Certificate</a>
                   </li>
                   <li className='group'>
                     <a href="#contact" className='text-base text-slate-700 py-2 mx-8 group-hover:text-sky-600 flex'>Contact</a>
@@ -76,7 +76,7 @@ const App = () => {
           <div className='flex flex-wrap justify-between'>
             <div className="my-10 w-full self-center rounded-lg px-14 font-serif p-5 shadow-lg sm:w-1/2">
              <h3 className='font-sans from-neutral-500'>Hallo nama saya, <span className='text-sky-500 font-semibold '>Fachrul Fauzy Muzafar.</span></h3>
-             <p className='font-sans text-slate-400 font'>Web Developer</p>
+             <p className='font-sans text-slate-400 font'>Programer</p>
             </div>
             <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2'>
             <img className='lg:w-1/2 ml-9 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
@@ -92,11 +92,11 @@ const App = () => {
           <div class="flex flex-wrap">
             <div className='w-full mb-8 px-8 lg:w-1/2'>  
             <h3 className='text-sky-500 uppercase block mb-2'>Tentang Saya</h3>
-            <p> <span className='uppercase'>NGODING itu seru</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia distinctio rem quas cum eligendi esse, rerum sint consequuntur nobis asperiores.</p>
+            <p>Sedari saya kecil saya sangat menyukai dengan hal yang berhubungan dengan teknologi, saya sangat menyukai sesuatu yang berhubungan dengan perhitungan dan logika sama halnya ketika saya belajar Bahasa pemograman itu selalu membuat saya ingin terus mencoba belajar sesuatu yang baru, dan saya sangat bersemangat untuk terus belajar sesuatu yang baru terutama jika itu berhubungan dengan IT dan Pemograman.</p>
             </div>
             <div class="w-full mb-20 px-8 lg:w-1/2">
               <h3 className='uppercase text-sky-500 mb-2'>Contact</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ea ab doloribus eveniet, alias repudiandae excepturi rerum nemo numquam quae?</p>
+              <p>Jika ada sesuatu yang ingin ditanyakan bisa hubungi contact berikut.</p>
               <div className='flex items-center mt-4'>
                 {/* instagram */}
                 <a href="https://www.instagram.com/fauzyfm_/" target='_blank'  rel="noopener noreferrer" className='w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-sky-300 hover:bg-sky-100 hover:text-sky-300'>
@@ -128,19 +128,19 @@ const App = () => {
           </div>
 
           <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
-            <div className='mb-12 p-4 md:w-1/2'>
-              <div class="rounded-md shadow-md overflow-hidden ">
+            <div className='mb-12 p-4 md:w-1/2' >
+              <div class=" overflow-hidden ">
                 <img src={Project1} alt="" className='mx-auto' />
               </div>
               <h3 className='font-semibold py-3 text-lg '>Website (SPA)</h3>
-              <p>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan.</p>
+              <p>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan. <a className='text-sky-600' target='_blank' href="https://rumusmatematika.vercel.app/">Kunjungi Website.</a> </p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
-              <div class="rounded-md shadow-md overflow-hidden">
+              <div class=" overflow-hidden">
                 <img src={Project2} alt="" className='mx-auto w-[280px] h-[567px]' />
               </div>
               <h3 className='font-semibold py-3 text-lg'>Website (API)</h3>
-              <p>Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan.</p>
+              <p>Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan. <a className='text-sky-600' target='_blank' href="https://weather-api-app.vercel.app/">Kunjungi Website.</a> </p>
             </div>
           </div>
       </section>
@@ -148,49 +148,68 @@ const App = () => {
 
       {/* Sertificate start */}
 
-      <section id='sertificate' className='pt-20 pb-10'>
+      {/* <section id='sertificate' className='pt-20 pb-10'>
           <div class="container text-center w-full mb-8">
             <h2 className='font-semibold text-sky-500 text-xl py-5 '>SERTIFICATE</h2>
           </div>
           <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
             <div className='mb-12 p-4 md:w-1/2'>
               <div class="rounded-md shadow-md overflow-hidden ">
-                {/* <img src={} alt="" className='mx-auto' /> */}
+                <img src={} alt="" className='mx-auto' />
               </div>
               <h3 className='font-semibold py-3 text-lg '>SERTIFICATE 1</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
               <div class="rounded-md shadow-md overflow-hidden">
-                {/* <img src={} alt="" className='mx-auto w-[280px] h-[567px]' /> */}
+                <img src={} alt="" className='mx-auto w-[280px] h-[567px]' />
               </div>
               <h3 className='font-semibold py-3 text-lg'>SERTIFICATE 2</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
             </div>
           </div>
-      </section>
+      </section> */}
 
       {/* Sertificate end */}
 
 
       {/* Contact start */}
-      <div className='container mx-auto px-5'>
-      <h3 className='text-center font-semibold mt-10 mb-7 text-slate-500
-        '>Contact me</h3>
-        <div className='max-w-sm mx-auto px-5 m-5 border-2'>
-        <form action="">
-          <label  for="email">
-            <input className='m-5 max-w-full border-4' type="email" id='email'/>
-          </label>
-          <label for="pesan">
-            <textarea className='m-5 border-4' name="pesan" id="" cols="30" rows="10"></textarea>
-          </label>
-          <button className='bg-teal-300 border-2 p-2 rounded-lg text-white font-semibold ml-5'>Kirim Pesan</button>
-        </form>
-        </div>
-      </div>
+        <section id='contact' className='pt-36 pb-32'>
+          <div className='container'>
+            <div class="w-full px-4">
+              <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 className='font-semibold text-lg text-sky-500 mb-2'>Contact</h4>
+                <h2 >Hubungi Kami</h2>
+              </div>
+            </div>
+
+            <form>
+              <div className='w-full lg:w-2/3 lg:mx-auto'>
+              <div className='w-full px-4 mb-8'>
+                <label for="name" className='text-base text-sky-500 font-bold uppercase'>Name</label>
+                <input type="text" id='name' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 '/>
+              </div>
+              <div className='w-full px-4 mb-8'>
+                <label for="email" className='text-base text-sky-500 font-bold uppercase'>Email</label>
+                <input type="text" id='email' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 '/>
+              </div>
+              <div className='w-full px-4 mb-8'>
+                <label for="pesan" className='text-base text-sky-500 font-bold uppercase'>Pesan</label>
+                <textarea type="text" id='pesan' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500  h-32'></textarea>
+              </div>
+              <div className='w-full px-5'>
+                <button className='text-base font-semibold text-white bg-sky-500 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-md transition duration-500 uppercase'>Kirim</button>
+              </div>
+              </div>
+
+            </form>
+          </div>
+        </section>
+
+
+      {/* Contact end */}
+
     </div>
-    // contact end
 
   );
 }

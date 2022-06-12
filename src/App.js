@@ -133,18 +133,44 @@ const App = () => {
                 <img src={Project1} alt="" className='mx-auto' />
               </div>
               <h3 className='font-semibold py-3 text-lg '>Website (SPA)</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
+              <p>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan.</p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
               <div class="rounded-md shadow-md overflow-hidden">
                 <img src={Project2} alt="" className='mx-auto w-[280px] h-[567px]' />
               </div>
               <h3 className='font-semibold py-3 text-lg'>Website (API)</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
+              <p>Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan.</p>
             </div>
           </div>
       </section>
       {/* Project end */}
+
+      {/* Sertificate start */}
+
+      <section id='sertificate' className='pt-20 pb-10'>
+          <div class="container text-center w-full mb-8">
+            <h2 className='font-semibold text-sky-500 text-xl py-5 '>SERTIFICATE</h2>
+          </div>
+          <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
+            <div className='mb-12 p-4 md:w-1/2'>
+              <div class="rounded-md shadow-md overflow-hidden ">
+                {/* <img src={} alt="" className='mx-auto' /> */}
+              </div>
+              <h3 className='font-semibold py-3 text-lg '>SERTIFICATE 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
+            </div>
+            <div className='mb-12 p-4 md:w-1/2'>
+              <div class="rounded-md shadow-md overflow-hidden">
+                {/* <img src={} alt="" className='mx-auto w-[280px] h-[567px]' /> */}
+              </div>
+              <h3 className='font-semibold py-3 text-lg'>SERTIFICATE 2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
+            </div>
+          </div>
+      </section>
+
+      {/* Sertificate end */}
 
 
       {/* Contact start */}

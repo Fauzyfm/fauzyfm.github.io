@@ -2,6 +2,7 @@ import './App.css';
 import Profile from './img/profile.jpg';
 import Project1 from './img/project_1.png';
 import Project2 from './img/project_2.png';
+import Sertificate_1 from './img/sertificate_1'
 import React from 'react';
 
 const App = () => {
@@ -148,27 +149,27 @@ const App = () => {
 
       {/* Sertificate start */}
 
-      {/* <section id='sertificate' className='pt-20 pb-10'>
+      <section id='sertificate' className='pt-20 pb-10'>
           <div class="container text-center w-full mb-8">
             <h2 className='font-semibold text-sky-500 text-xl py-5 '>SERTIFICATE</h2>
           </div>
           <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
             <div className='mb-12 p-4 md:w-1/2'>
               <div class="rounded-md shadow-md overflow-hidden ">
-                <img src={} alt="" className='mx-auto' />
+                <img src={Sertificate_1} alt="" className='mx-auto' />
               </div>
               <h3 className='font-semibold py-3 text-lg '>SERTIFICATE 1</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
               <div class="rounded-md shadow-md overflow-hidden">
-                <img src={} alt="" className='mx-auto w-[280px] h-[567px]' />
+                {/* <img src={} alt="" className='mx-auto w-[280px] h-[567px]' /> */}
               </div>
               <h3 className='font-semibold py-3 text-lg'>SERTIFICATE 2</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
             </div>
           </div>
-      </section> */}
+      </section> 
 
       {/* Sertificate end */}
 

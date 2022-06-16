@@ -4,6 +4,8 @@ import Project1 from './img/project_1.png';
 import Project2 from './img/project_2.png';
 import Sertificate_1 from './img/sertificate_1.png'
 import React from 'react';
+// import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
   // hamburger button 
@@ -75,11 +77,11 @@ const App = () => {
       <section id='data-diri' className='pt-14 mt-5 px-5 '>
         <div className="container ">
           <div className='flex flex-wrap justify-between'>
-            <div className="my-10 w-full self-center rounded-lg px-14 font-serif p-5 shadow-lg sm:w-1/2">
+            <div className="my-10 w-full self-center rounded-lg px-14 font-serif p-5 shadow-lg sm:w-1/2" data-aos="fade-up">
              <h3 className='font-sans from-neutral-500'>Hallo nama saya, <span className='text-sky-500 font-semibold '>Fachrul Fauzy Muzafar.</span></h3>
              <p className='font-sans text-slate-400 font'>Programer</p>
             </div>
-            <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2'>
+            <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2' data-aos='fade-left'>
             <img className='lg:w-1/2 ml-9 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
             </div>
           </div>
@@ -88,9 +90,9 @@ const App = () => {
       {/* Home section End */}
 
       {/* About Start */}
-      <section id='about' className='mt-5 px-5 pt-20'>
+      <section id='about' className='mt-5 mb-20 px-5 py-40 pt-20'>
         <div class="container">
-          <div class="flex flex-wrap">
+          <div class="flex flex-wrap" data-aos="fade-up">
             <div className='w-full mb-8 px-8 lg:w-1/2'>  
             <h3 className='text-sky-500 uppercase block mb-2'>Tentang Saya</h3>
             <p>Sedari saya kecil saya sangat menyukai dengan hal yang berhubungan dengan teknologi, saya sangat menyukai sesuatu yang berhubungan dengan perhitungan dan logika sama halnya ketika saya belajar Bahasa pemograman itu selalu membuat saya ingin terus mencoba belajar sesuatu yang baru, dan saya sangat bersemangat untuk terus belajar sesuatu yang baru terutama jika itu berhubungan dengan IT dan Pemograman.</p>
@@ -129,19 +131,19 @@ const App = () => {
           </div>
 
           <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
-            <div className='mb-12 p-4 md:w-1/2' >
-              <div class=" overflow-hidden ">
+            <div className='mb-12 p-4 md:w-1/2'>
+              <div class=" overflow-hidden " data-aos='fade-right'>
                 <img src={Project1} alt="" className='mx-auto' />
               </div>
-              <h3 className='font-semibold py-3 text-lg '>Website (SPA)</h3>
-              <p>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://rumusmatematika.vercel.app/">Kunjungi Website.</a> </p>
+              <h3 className='font-semibold py-3 text-lg ' data-aos='fade-up'>Website (SPA)</h3>
+              <p data-aos='fade-up'>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://rumusmatematika.vercel.app/">Kunjungi Website.</a> </p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
-              <div class=" overflow-hidden">
+              <div class=" overflow-hidden" data-aos='fade-left'>
                 <img src={Project2} alt="" className='mx-auto w-[280px] h-[567px]' />
               </div>
-              <h3 className='font-semibold py-3 text-lg'>Website (API)</h3>
-              <p>Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://weather-api-app.vercel.app/">Kunjungi Website.</a> </p>
+              <h3 className='font-semibold py-3 text-lg' data-aos='fade-up'>Website (API)</h3>
+              <p data-aos='fade-up' >Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://weather-api-app.vercel.app/">Kunjungi Website.</a> </p>
             </div>
           </div>
       </section>
@@ -150,16 +152,16 @@ const App = () => {
       {/* Sertificate start */}
 
       <section id='sertificate' className='pt-20 pb-10'>
-          <div class="container text-center w-full mb-8">
+          <div class="container text-center w-full mb-8" >
             <h2 className='font-semibold text-sky-500 text-xl py-5 '>SERTIFICATE</h2>
           </div>
           <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
             <div className='mb-12 p-4 md:w-1/2'>
-              <div class="rounded-md shadow-md overflow-hidden ">
+              <div class="rounded-md shadow-md overflow-hidden " data-aos='fade-right'>
                 <img src={Sertificate_1} alt="" className='mx-auto' />
               </div>
-              <h3 className='font-semibold py-3 text-lg '>Responsive Web Design</h3>
-              <p>Berhasil menyelesaikan test yang diberikan dari platform <a href="https://www.freecodecamp.org/certification/fauzyfm_/responsive-web-design" target='_blank' rel="noopener noreferrer" className='text-sky-600'> freecodecamp.org. </a></p>
+              <h3 className='font-semibold py-3 text-lg ' data-aos='fade-up'>Responsive Web Design</h3>
+              <p className='text-slate-500' data-aos='fade-up'>Berhasil menyelesaikan test yang diberikan dari platform <a href="https://www.freecodecamp.org/certification/fauzyfm_/responsive-web-design" target='_blank' rel="noopener noreferrer" className='text-sky-600'> freecodecamp.org. </a></p>
             </div>
 
           </div>
@@ -180,19 +182,19 @@ const App = () => {
 
             <form>
               <div className='w-full lg:w-2/3 lg:mx-auto'>
-              <div className='w-full px-4 mb-8'>
+              <div className='w-full px-4 mb-8' data-aos='fade-up'>
                 <label for="name" className='text-base text-sky-500 font-bold uppercase'>Name</label>
                 <input type="text" id='name' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 '/>
               </div>
-              <div className='w-full px-4 mb-8'>
+              <div className='w-full px-4 mb-8' data-aos='fade-up'>
                 <label for="email" className='text-base text-sky-500 font-bold uppercase'>Email</label>
                 <input type="text" id='email' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 '/>
               </div>
-              <div className='w-full px-4 mb-8'>
+              <div className='w-full px-4 mb-8' data-aos='fade-up'>
                 <label for="pesan" className='text-base text-sky-500 font-bold uppercase'>Pesan</label>
                 <textarea type="text" id='pesan' className='w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500  h-32'></textarea>
               </div>
-              <div className='w-full px-5'>
+              <div className='w-full px-5' data-aos='fade-up'>
                 <button className='text-base font-semibold text-white bg-sky-500 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-md transition duration-500 uppercase'>Kirim</button>
               </div>
               </div>

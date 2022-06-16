@@ -158,8 +158,8 @@ const App = () => {
               <div class="rounded-md shadow-md overflow-hidden ">
                 <img src={Sertificate_1} alt="" className='mx-auto' />
               </div>
-              <h3 className='font-semibold py-3 text-lg '>SERTIFICATE 1</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
+              <h3 className='font-semibold py-3 text-lg '>Responsive Web Design</h3>
+              <p>Berhasil menyelesaikan test yang diberikan dari platform <a href="https://www.freecodecamp.org/certification/fauzyfm_/responsive-web-design" target='_blank' rel="noopener noreferrer" className='text-sky-600'> freecodecamp.org. </a></p>
             </div>
 
           </div>

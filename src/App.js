@@ -134,14 +134,14 @@ const App = () => {
                 <img src={Project1} alt="" className='mx-auto' />
               </div>
               <h3 className='font-semibold py-3 text-lg '>Website (SPA)</h3>
-              <p>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan. <a className='text-sky-600' target='_blank' href="https://rumusmatematika.vercel.app/">Kunjungi Website.</a> </p>
+              <p>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://rumusmatematika.vercel.app/">Kunjungi Website.</a> </p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
               <div class=" overflow-hidden">
                 <img src={Project2} alt="" className='mx-auto w-[280px] h-[567px]' />
               </div>
               <h3 className='font-semibold py-3 text-lg'>Website (API)</h3>
-              <p>Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan. <a className='text-sky-600' target='_blank' href="https://weather-api-app.vercel.app/">Kunjungi Website.</a> </p>
+              <p>Website yang menyediakan sebuah program dengan Rest API untuk mencari data cuaca dari berbagai kota/negara yang di inginkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://weather-api-app.vercel.app/">Kunjungi Website.</a> </p>
             </div>
           </div>
       </section>
@@ -161,13 +161,7 @@ const App = () => {
               <h3 className='font-semibold py-3 text-lg '>SERTIFICATE 1</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
             </div>
-            <div className='mb-12 p-4 md:w-1/2'>
-              <div class="rounded-md shadow-md overflow-hidden">
-                {/* <img src={} alt="" className='mx-auto w-[280px] h-[567px]' /> */}
-              </div>
-              <h3 className='font-semibold py-3 text-lg'>SERTIFICATE 2</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque odio in recusandae expedita cupiditate.</p>
-            </div>
+
           </div>
       </section> 
 

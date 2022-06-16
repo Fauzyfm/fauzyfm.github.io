@@ -2,7 +2,7 @@ import './App.css';
 import Profile from './img/profile.jpg';
 import Project1 from './img/project_1.png';
 import Project2 from './img/project_2.png';
-import Sertificate_1 from './img/sertificate_1'
+import Sertificate_1 from './img/sertificate_1.png'
 import React from 'react';
 
 const App = () => {

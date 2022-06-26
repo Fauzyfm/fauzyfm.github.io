@@ -81,7 +81,7 @@ const App = () => {
              <h3 className='font-sans from-neutral-500'>Hallo nama saya, <span className='text-sky-500 font-semibold '>Fachrul Fauzy Muzafar.</span></h3>
              <p className='font-sans text-slate-400 font'>Programer</p>
             </div>
-            <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2' data-aos='fade-left'>
+            <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2' data-aos='zoom-in'>
             <img className='lg:w-1/2 ml-8 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
             </div>
           </div>
@@ -139,7 +139,7 @@ const App = () => {
               <p data-aos='fade-up'>Website yang menyediakan sebuah program untuk membantu user menemukan sebuah masalah dalam mengerjakan soal matematika, dan menemukan rumus - rumus yang dibutuhkan. <a className='text-sky-600' target='_blank' rel="noopener noreferrer" href="https://rumusmatematika.vercel.app/">Kunjungi Website.</a> </p>
             </div>
             <div className='mb-12 p-4 md:w-1/2'>
-              <div class=" overflow-hidden" data-aos='fade-left'>
+              <div class=" overflow-hidden" data-aos='fade-right'>
                 <img src={Project2} alt="" className='mx-auto w-[280px] h-[567px]' />
               </div>
               <h3 className='font-semibold py-3 text-lg' data-aos='fade-up'>Website (API)</h3>

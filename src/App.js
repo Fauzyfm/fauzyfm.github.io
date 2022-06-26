@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div>
 
-      <header className='bg-transparent absolute top-0 left-0 w-full flex items-center z-20'>
+      <header className='bg-transparent fixed top-0 left-0 w-full flex items-center z-20'>
         <div class="container">
           <div className='flex item-center justify-between relative'>
             <div className='px-4'>
@@ -82,7 +82,7 @@ const App = () => {
              <p className='font-sans text-slate-400 font'>Programer</p>
             </div>
             <div className='my-10 w-full flex lg:justify-center sm:justify-center lg:w-1/2' data-aos='fade-left'>
-            <img className='lg:w-1/2 ml-9 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
+            <img className='lg:w-1/2 ml-8 shadow-lg mb-4 rounded-l-full sm:rounded-full sm:w-1/2 lg:rounded-full ' src={Profile} alt="" />
             </div>
           </div>
         </div>
@@ -152,13 +152,13 @@ const App = () => {
       {/* Sertificate start */}
 
       <section id='sertificate' className='pt-20 pb-10'>
-          <div class="container text-center w-full mb-8" >
+          <div class="container text-center w-full mb-8 " >
             <h2 className='font-semibold text-sky-500 text-xl py-5 '>SERTIFICATE</h2>
           </div>
           <div className='w-full px-4 flex flex-wrap justify-center xl:w-10/12 mx-auto'>
             <div className='mb-12 p-4 md:w-1/2'>
-              <div class="rounded-md shadow-md overflow-hidden " data-aos='fade-right'>
-                <img src={Sertificate_1} alt="" className='mx-auto' />
+              <div class="rounded-md shadow-lg overflow-hidden " data-aos='fade-right'>
+                <img src={Sertificate_1} className='mx-auto' />
               </div>
               <h3 className='font-semibold py-3 text-lg ' data-aos='fade-up'>Responsive Web Design</h3>
               <p className='text-slate-500' data-aos='fade-up'>Berhasil menyelesaikan test yang diberikan dari platform <a href="https://www.freecodecamp.org/certification/fauzyfm_/responsive-web-design" target='_blank' rel="noopener noreferrer" className='text-sky-600'> freecodecamp.org. </a></p>

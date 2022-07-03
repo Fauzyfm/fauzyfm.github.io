@@ -3,6 +3,7 @@ import Profile from './img/profile.jpg';
 import Project1 from './img/project_1.png';
 import Project2 from './img/project_2.png';
 import Sertificate_1 from './img/sertificate_1.png'
+import Sertificate_2 from './img/certificate_javascript.png'
 import React from 'react';
 // import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -163,7 +164,13 @@ const App = () => {
               <h3 className='font-semibold py-3 text-lg ' data-aos='fade-up'>Responsive Web Design</h3>
               <p className='text-slate-500' data-aos='fade-up'>Berhasil menyelesaikan test yang diberikan dari platform <a href="https://www.freecodecamp.org/certification/fauzyfm_/responsive-web-design" target='_blank' rel="noopener noreferrer" className='text-sky-600'> freecodecamp.org. </a></p>
             </div>
-
+            <div className='mb-12 p-4 md:w-1/2'>
+              <div class="rounded-md shadow-lg overflow-hidden " data-aos='fade-right'>
+                <img src={Sertificate_2} className='mx-auto' />
+              </div>
+              <h3 className='font-semibold py-3 text-lg mt-10 ' data-aos='fade-up'>JavaScript</h3>
+              <p className='text-slate-500' data-aos='fade-up'>Berhasil menyelesaikan test yang diberikan dari platform <a href="https://www.sololearn.com/certificates/course/en/26238842/1024/landscape/png" target='_blank' rel="noopener noreferrer" className='text-sky-600'>sololearn.com </a></p>
+            </div>
           </div>
       </section> 
 
